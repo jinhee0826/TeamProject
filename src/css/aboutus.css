@@ -1,0 +1,25 @@
+*{
+    /*글씨체*/
+
+}
+
+.Box{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-left: 780px;
+    margin-top: -140px;
+    
+}
+.title{
+    font-size: 100px;
+    font-weight: bold;
+ 
+}
+.info{
+
+}
+.info2{
+
+}
+
