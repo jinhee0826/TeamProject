@@ -1,5 +1,5 @@
 import "../css/aboutus.css"
-import Home from "../page/Home";
+
 
 const Aboutus = () => {
     return (

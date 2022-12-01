@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import Aboutus from "../components/Aboutus";
 import Contactus from "../components/Contactus";
-import Page2 from "../components/Page2";
+import Portfolio from "../components/Portfolio";
 import "../css/Home.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -16,6 +16,7 @@ const Home = () => {
         vertical: false,
         arrows: false,
         infinite: false,
+        draggable: false,
       };
     
       const slider = useRef(null);
@@ -35,13 +36,12 @@ const Home = () => {
 
     return (  
         <div className="slick-div">
-
             <div className="arrow"></div>
             <div id="container">
                 <div id="container2">
-                <Slider {...settings2} ref={slider}>
+                <Slider className="Main-slick" {...settings2} ref={slider}>
                     <div className="box one"><div><Aboutus /></div></div>
-                    <div className="box two"><div><Page2 /></div></div>
+                    <div className="box two"><div><Portfolio /></div></div>
                     <div className="box three"><div><Contactus /></div></div>
                </Slider>
                 </div>

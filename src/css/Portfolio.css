@@ -1,0 +1,25 @@
+.map{
+    position: relative;
+    border: 1px solid red;
+
+}
+
+.com {
+    width: 1600px;
+    height: 40vh;
+    position: absolute;
+    right: -750px;
+    bottom: -150px;
+    top: -160px;
+
+}
+
+.slick-slide .imgDiv{
+    height: 400px;
+        
+}
+
+.imgDiv{
+    padding-left: 30px;
+    padding-right: 30px;
+}
